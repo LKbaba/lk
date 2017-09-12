@@ -16,7 +16,7 @@ def false_room():
     hit7 = raw_input(">:")
     if hit7 == 'right':
         dead("A big stone falls off and strikes you. Told you not to believe! Alright~")
-    if hit7 == 'left':
+    elif hit7 == 'left':
         print "You get the gold in the next room! you`re the winner!"
         exit(0)
     else:
