@@ -1,0 +1,51 @@
+$ python
+
+python 2.5.1
+
+
+#means import the FUNC
+>>> import ex25
+#assign the 'sentence'
+>>>sentence = "All good things come to those who wait."
+#use 'break_words' to run the 'sentence'. and the 'ex25.' is necessary.
+>>>word = ex25.break_words(sentence)
+#to print the 'words' we just use>>>words
+['All', 'good', 'things', 'come', 'to', 'those', 'who',
+'wait.']
+>>>sorted_words = ex25.sort_words(words)
+>>>sorted_words
+['All', 'come', 'good', 'things', 'those', 'to', 'wait.',
+'who']
+>>>ex25.print_first_word(words)
+All
+>>>ex25.print_last_word
+wait.
+#print wrong>>>word
+
+NameError
+#after popping the word, you`ll never see it next, unless you assign it once again.
+>>>words
+['good', 'things', 'come', 'to', 'those', 'who']
+#'pop(0)'
+>>>ex25.print_first_word(sorted_words)
+All
+#you should know what 'pop' means.>>>ex25.print_last_word(sorted_words)
+Who
+#the word above will not appear, while sorted.>>>sorted_words
+['come', 'good', 'things', 'those', 'to', 'wait.'
+#just to sort the sentence. and you can find the sentence appear again in full.
+>>>sorted_words = ex25.sort_sentence(sentence)
+#'I think it means to disorder the sequence.' that`s not, it`s the result of 'sort_sentence'!
+>>>soted_words
+['All', 'come', 'good', 'things', 'those', 'to', wait.'
+# call the FUNc
+>>>ex25.print_first_and_last(sentence)
+All
+wait.
+#run the FUNC
+>>>ex25.print_first_and_last_sorted(sentence)
+All
+who
+#to quiet this
+>>>^Z
+$

@@ -1,0 +1,10 @@
+code-block::python
+animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
+the animal at 1 is python.
+the 3rd animal is peacock.
+the 1st animal is bear.
+the animal at 3 is kangaroo.
+teh 5th animal is whale.
+the 6thn animal is paltypus.
+the animal at 4 is whale.
+figure out the difference between cardinal number(0, 1, 2, 3, 4...) and ordinal number(1st, 2nd, 3nd, 4th....)

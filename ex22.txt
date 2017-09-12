@@ -1,0 +1,77 @@
+print and then add "" or '' to the string, can read it out.
+
+add '#' can make a comment, so you can read why and how you programed at that time. and also can disable a piece of code.
+
+and you can calculate the numbers directly, 
+'101%4' will count the last number can`t be divided by 4, it means 1.
+and '5>7' can be print out as False.
+float can be exactly accurate.
+
+then you should know about '=', the assignment.
+you can use '%s %d %r' to call the assignment again.
+
+the strings can be together whth the '+', but can`t mixed with numbers.
+
+when you print "" and add *10 after that, you can repeat it 10 times.
+
+and a pair of """ could load a piece of paraguaph.
+
+'\n' means line feed.
+
+\\ can be read as '\'
+
+\t can retract
+
+'input' and 'raw_input' can let uses input some answer, and raw_input will be completely display what others input, while input may calculate something.
+and you can add "the question" in the ()
+
+and remeber use '_' to connect two words.
+
+'from sys import argv 
+script, onefile, twofile = argv' this is the FUNC from others, can make the assignment at first.
+
+'=open()' this command means to open a txt but no anyother actions.
+if you want to wirte some thing in the file , you shoule print '= open(assignment.'w') or you can use 'assignment.truncate()' to do the same thing.
+
+'assignment.read()' it means directly the words say. and '.readline()' means the frist line, you can repete it to read next line one by one.
+
+and '.close()' is very important to save your place in computer.
+
+while the FUNC is running, you can use '^C' to stop it.
+
+'.write()' means to input. you can print paragraph in '()'.
+
+now, apearing a new FUNC, that`s 'from os.path import exists', you can use '%s %exists(filename)' to let computer tell you weather the file is existing.
+
+'%len(filename.read())' can tell the byte in the file.
+
+and something new is coming, 
+'def assignment(*args): 
+    arg1, arg2 = args
+    print"xxxxxxxxx%s, %s"%(arg1, arg2)'
+that`s a really FUNC. and you could use variables and math to call it.                        
+
+print '#coding: utf-8' in script allows you print Chinese.
+
+and again, 
+'def xxxxx(assignment)
+    print assignment.read()'
+    
+'seek()' can locate the site which to read in txt.
+
+'+= 5' means add 5 
+
+'def xxxx(a, b)
+    print "xxxxx"
+    return a + b' can return the caculated result to the xxxx 
+
+
+
+
+
+
+
+
+
+
+
